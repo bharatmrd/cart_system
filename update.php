@@ -1,6 +1,6 @@
 <?php
 	
-	$mysqli = new mysqli('localhost', 'secure_user', 'hello', 'cart');
+	$mysqli = new mysqli('localhost', 'root', 'password', 'cart');
 
 	$itemno = $_POST['postitem'];
 	$quantity = $_POST['postq'];
