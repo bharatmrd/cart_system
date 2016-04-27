@@ -168,8 +168,9 @@ for (var i = 0; i < array2.length; i++) {
 			function(data)
 			{
 				alert(data);
+				window.location.reload();
 			});
-		window.location.reload();
+		
 	}
 </script>
 </body>
